@@ -4,7 +4,7 @@ long_description = 'Divide polynomials - read the docs at https://www.github.com
 
 setup(
   name = 'polynomial-division',
-  version = '1.0',
+  version = '1.1',
   license='Apache',
   description = 'Divide polynomials',
   author = 'Rujul Nayak',
