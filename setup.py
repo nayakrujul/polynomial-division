@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
-long_description = 'A very concise language for handling numbers - read the docs at https://www.github.com/nayakrujul/numlang-9ee9'
+long_description = 'Divide polynomials - read the docs at https://www.github.com/nayakrujul/polynomial-division'
 
 setup(
-  name = 'numlang-9ee9',
-  version = '3.0',
+  name = 'polynomial-division',
+  version = '1.0',
   license='Apache',
-  description = 'A very concise language for handling numbers.',
+  description = 'Divide polynomials',
   author = 'Rujul Nayak',
   author_email = 'rujulnayak@outlook.com',
-  url = 'https://github.com/nayakrujul/numlang-9ee9',
-  download_url = 'https://github.com/nayakrujul/numlang-9ee9/archive/refs/tags/v_01.tar.gz',
-  keywords = ['language'],
+  url = 'https://github.com/nayakrujul/polynomial-division',
+  download_url = 'https://github.com/nayakrujul/polynomial-division/archive/refs/tags/v_01.tar.gz',
+  keywords = ['math', 'polynomial', 'division'],
   install_requires=[
       ],
   classifiers=[
@@ -32,7 +32,7 @@ setup(
   packages = find_packages(),
   entry_points = {
     'console_scripts': [
-      'numlang = numlang.nl:from_console'
+      'divide = polynomial_division.pd:cmdline'
     ]
   }
 )
