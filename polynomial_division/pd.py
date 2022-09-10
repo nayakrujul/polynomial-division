@@ -27,7 +27,11 @@ def cmdline():
     parser.add_argument('divisor', metavar ='divisor', type=str, nargs=1, help= 'Divisor, like 2,1')
     args = parser.parse_args()
     try:
-        print("Result:", *polynomial_divide(ast.literal_eval(args.dividend[0]), ast.literal_eval(args.divisor[0])))
+        print("Result:", end=' ')
+        res = polynomial_divide(ast.literal_eval(args.dividend[0]), ast.literal_eval(args.divisor[0]))
+        for i, n in enumerate(res[:-1]):
+            print(n, 'x^', len(res)-i-1, sep='', end=' + ')
+        print(res[-1])
         return 0
     except:
         print("ERROR")
