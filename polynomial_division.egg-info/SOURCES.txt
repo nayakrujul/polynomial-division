@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+polynomial_division/__init__.py
+polynomial_division/pd.py
+polynomial_division.egg-info/PKG-INFO
+polynomial_division.egg-info/SOURCES.txt
+polynomial_division.egg-info/dependency_links.txt
+polynomial_division.egg-info/entry_points.txt
+polynomial_division.egg-info/top_level.txt
