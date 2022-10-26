@@ -2,7 +2,7 @@ import argparse
 import ast
 
 def polynomial_divide(dividend, divisor):
-    if len(divisor) >= len(dividend):
+    if len(divisor) > len(dividend):
         raise ValueError('divisor bigger than dividend')
     l = len(divisor)
     r = ()
